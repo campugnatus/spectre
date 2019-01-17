@@ -32,3 +32,10 @@
     }
   }
 }
+
+.unloading {
+    @extend .loading;
+    &::after {
+        animation: loading 10s infinite linear reverse;
+    }
+}
