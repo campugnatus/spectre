@@ -52,28 +52,28 @@ $cjk-ko-font-family: $base-font-family, "Malgun Gothic", $fallback-font-family !
 $body-font-family: $base-font-family, $fallback-font-family !default;
 
 // Unit sizes
-$unit-o: .05rem !default;
-$unit-h: .1rem !default;
-$unit-1: .2rem !default;
-$unit-2: .4rem !default;
-$unit-3: .6rem !default;
-$unit-4: .8rem !default;
-$unit-5: 1rem !default;
-$unit-6: 1.2rem !default;
-$unit-7: 1.4rem !default;
-$unit-8: 1.6rem !default;
-$unit-9: 1.8rem !default;
-$unit-10: 2rem !default;
-$unit-12: 2.4rem !default;
-$unit-16: 3.2rem !default;
+$unit-o: .0625rem !default;
+$unit-h: .125rem !default;
+$unit-1: .25rem !default;
+$unit-2: .5rem !default;
+$unit-3: .75rem !default;
+$unit-4: 1rem !default;
+$unit-5: 1.25rem !default;
+$unit-6: 1.5rem !default;
+$unit-7: 1.75rem !default;
+$unit-8: 2rem !default;
+$unit-9: 2.25rem !default;
+$unit-10: 2.5rem !default;
+$unit-12: 3rem !default;
+$unit-16: 4rem !default;
 
 // Font sizes
-$html-font-size: 20px !default;
+$html-font-size: 16px !default;
 $html-line-height: 1.5 !default;
-$font-size: .8rem !default;
-$font-size-sm: .7rem !default;
-$font-size-lg: .9rem !default;
-$line-height: 1.2rem !default;
+$font-size: 14px !default;
+$font-size-sm: .9rem !default;
+$font-size-lg: 1.1rem !default;
+$line-height: 1.5rem !default;
 
 // Sizes
 $layout-spacing: $unit-2 !default;
