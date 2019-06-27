@@ -95,6 +95,35 @@
     }
   }
 
+  // Button that looks like a normal text (e.g. an icon)
+  &.btn-inline {
+      @extend .btn-link;
+      font-size: inherit;
+      display: inline;
+      color: inherit;
+      padding: 0;
+      height: auto;
+      &:focus {
+          box-shadow: none;
+      }
+  }
+
+  // Button that look like a normal link
+  &.btn-anchor {
+      @extend .btn-link;
+      padding: 0;
+      display: inline;
+      font-size: inherit;
+      line-height: inherit;
+      height: auto;
+      vertical-align: baseline;
+      font-style: inherit;
+
+      &:hover {
+          text-decoration: underline;
+      }
+  }
+
   // Button Sizes
   &.btn-sm {
     font-size: $font-size-sm;

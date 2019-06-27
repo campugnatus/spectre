@@ -1,11 +1,10 @@
 // Tabs
 .tab {
   align-items: center;
-  border-bottom: $border-width solid $border-color;
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  margin: $unit-1 0 ($unit-1 - $border-width) 0;
+  margin: $unit-1 0 0 0;
 
   .tab-item {
     margin-top: 0;
@@ -35,6 +34,11 @@
 
     .btn-clear {
       margin-top: -$unit-1;
+    }
+
+    &.disabled {
+        opacity: 0.5;
+        pointer-events: none;
     }
   }
 
